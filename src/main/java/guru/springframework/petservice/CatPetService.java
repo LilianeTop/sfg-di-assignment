@@ -1,0 +1,16 @@
+package guru.springframework.petservice;
+
+
+/**
+ * Created by jt on 12/28/19.
+ */
+public class CatPetService implements PetService {
+
+    public CatPetService() {
+    }
+
+    @Override
+    public String getPetType() {
+        return "Cats Are the Best!";
+    }
+}
