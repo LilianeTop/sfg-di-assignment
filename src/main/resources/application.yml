@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: cat,EN
+    active: cat,EN,qa
 guru:
   username: YmlUserName
   password: YmlPassword
